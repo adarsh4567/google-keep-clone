@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+  }
+   html{
+    font-size: 62.5%;
+  } 
+  .formal{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFE652;
+    height: 80px;
+    display: flex;
+    box-shadow: 2px 4px 8px 0px rgba(0,0,0,0.51);
+    
+  }
+  .formal img{
+    width: 70px;
+    height: 60px;
+    margin: 10px;
+    
+  }
+  .formal h1{
+    margin: 20px 4px;
+    color: rgb(85, 85, 85);
+    font-size: 30px;
+  }
+  .note{
+    width: 50rem;
+    height: 100%;
+    background: white;
+    box-shadow: 2px 4px 8px 0px rgba(0,0,0,0.51);
+    
+    
+  }
+  .note form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position: relative;
+  }
+  .note input{
+    border:none;
+    height: 120px;
+    text-transform: capitalize;
+    font-size: 25px;
+    padding: 10px; 
+
+  }
+  .note textarea{
+    height:80px;
+    resize: none;
+    border:none;
+    font-size:15px;
+    padding: 10px;
+  }
+  .note input:focus{
+    border:none;
+    outline: none;
+  }
+  .note textarea:focus{
+    border: none;
+    outline: none;
+  }
+  .btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    right: 2px;
+    bottom: 0;
+    font-size: 40px;
+    transform: translateY(30px);
+    color: #ffd833;
+    background: white;
+    box-shadow: 2px 4px 8px 0px rgba(0,0,0,0.51);
+    display: grid;
+    place-items: center;
+  }
+  .btn:hover{
+    background: #ffd833;
+    color: white;
+  }
+  
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .custom{
+    width: 25rem;
+    height: 13rem;
+    box-shadow: 2px 4px 8px 0px rgba(0,0,0,0.51);
+    border-radius: 10px;
+    margin: 40px;
+    padding: 15px;
+    position: relative;
+    
+  }
+  .custom  p{
+    font-size: 15px;
+    padding: 10px;
+  }
+  .custom  i{
+    font-size: 18px;
+    padding: 10px;
+  }
+  .custom  button{
+    transform: translateY(-10px);
+    right: 20px;
+  }
+  .custom  button:hover{
+    color: red;
+    background: white;
+  }
+  
+   .modified{
+     display: flex;
+     flex-wrap: wrap;
+     
+   }
